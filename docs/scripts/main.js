@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('#type').typeIt({
+	$('#typed').typeIt({
 	     strings: 'HTML5 • CSS3 • jQuery • Wordpress',
 	     speed: 50,
 	     autoStart: false,
