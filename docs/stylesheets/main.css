@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:300,400");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400");
 /* line 7, ../sass/partials/_typography.sass */
 h1, h2, h3, h4, h5 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 
@@ -12,7 +12,7 @@ p, li, span {
 
 /* line 15, ../sass/partials/_typography.sass */
 hgroup h1 {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 400;
 }
 /* line 18, ../sass/partials/_typography.sass */
@@ -26,16 +26,16 @@ h1, h2, h3, h4 {
 }
 
 /* line 8, ../sass/partials/_branding.sass */
-body {
-  background-color: #FFF9EC;
+#portfolio {
+  background-color: #eee;
 }
 
-/* line 9, ../sass/partials/_structure.sass */
+/* line 12, ../sass/partials/_structure.sass */
 body {
   margin: 0;
 }
 
-/* line 12, ../sass/partials/_structure.sass */
+/* line 15, ../sass/partials/_structure.sass */
 header {
   display: flex;
   width: 100%;
@@ -44,32 +44,49 @@ header {
   height: 400px;
 }
 
-/* line 19, ../sass/partials/_structure.sass */
-hgroup {
-  width: 70%;
+/* line 22, ../sass/partials/_structure.sass */
+nav {
+  height: 50px;
 }
-
-/* line 29, ../sass/partials/_structure.sass */
-#codepen {
+/* line 24, ../sass/partials/_structure.sass */
+nav ul {
+  list-style: none;
   display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+/* line 29, ../sass/partials/_structure.sass */
+nav ul li {
+  padding: 0 10px;
 }
 /* line 31, ../sass/partials/_structure.sass */
-#codepen div {
+nav ul li:first-child {
   flex: 1;
 }
 
 /* line 34, ../sass/partials/_structure.sass */
-#about {
+hgroup {
   width: 70%;
-  margin: 0 auto;
 }
 
-/* line 38, ../sass/partials/_structure.sass */
-#portfolio {
-  background-color: white;
+/* line 42, ../sass/partials/_structure.sass */
+#codepen {
+  display: flex;
 }
-/* line 40, ../sass/partials/_structure.sass */
+/* line 44, ../sass/partials/_structure.sass */
+#codepen div {
+  flex: 1;
+}
+
+/* line 47, ../sass/partials/_structure.sass */
+#about {
+  width: 70%;
+  margin: 50px auto;
+}
+
+/* line 52, ../sass/partials/_structure.sass */
 #portfolio .inner {
   width: 70%;
   margin: 0 auto;
+  padding: 20px 0;
 }
