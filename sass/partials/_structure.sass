@@ -1,0 +1,42 @@
+@mixin table-parent 
+	display: table
+	width: 100%
+
+@mixin table-child
+	display: table-cell
+	vertical-align: middle
+
+body
+	margin: 0
+
+header
+	display: flex
+	width: 100%
+	justify-content: center
+	align-items: center
+	height: 400px
+
+hgroup
+	width: 70%
+
+@mixin grid
+	display: flex
+
+@mixin contain	
+	width: 70%
+	margin: 0 auto
+
+#codepen
+	@include grid	
+	div
+		flex: 1	
+
+#about 
+	@include contain	
+
+
+#portfolio
+	background-color: white
+	.inner
+		width: 70% 
+		margin: 0 auto

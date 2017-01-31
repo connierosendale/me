@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:300,400");
+/* line 7, ../sass/partials/_typography.sass */
+h1, h2, h3, h4, h5 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+/* line 11, ../sass/partials/_typography.sass */
+p, li, span {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 15, ../sass/partials/_typography.sass */
+hgroup h1 {
+  font-size: 2em;
+  font-weight: 400;
+}
+/* line 18, ../sass/partials/_typography.sass */
+hgroup h2 {
+  font-size: 1.2em;
+}
+
+/* line 5, ../sass/partials/_branding.sass */
+h1, h2, h3, h4 {
+  color: #333333;
+}
+
+/* line 8, ../sass/partials/_branding.sass */
+body {
+  background-color: #FFF9EC;
+}
+
+/* line 9, ../sass/partials/_structure.sass */
+body {
+  margin: 0;
+}
+
+/* line 12, ../sass/partials/_structure.sass */
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+/* line 19, ../sass/partials/_structure.sass */
+hgroup {
+  width: 70%;
+}
+
+/* line 29, ../sass/partials/_structure.sass */
+#codepen {
+  display: flex;
+}
+/* line 31, ../sass/partials/_structure.sass */
+#codepen div {
+  flex: 1;
+}
+
+/* line 34, ../sass/partials/_structure.sass */
+#about {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* line 38, ../sass/partials/_structure.sass */
+#portfolio {
+  background-color: white;
+}
+/* line 40, ../sass/partials/_structure.sass */
+#portfolio .inner {
+  width: 70%;
+  margin: 0 auto;
+}
