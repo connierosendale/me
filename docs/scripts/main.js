@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#type-heading').typeIt({
-		strings: ["This is a great string.", "But here is a better one."],
+		strings: ["Hello.", "I'm Connie."],
 		speed: 50,
 		breakLines: false,
 		autoStart: false
