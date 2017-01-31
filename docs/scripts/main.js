@@ -1,8 +1,7 @@
 $(document).ready(function() {
-	$('#type-heading').typeIt({
-		strings: ["Hello.", "I'm Connie."],
-		speed: 50,
-		breakLines: false,
-		autoStart: false
+	$('#type').typeIt({
+	     strings: 'HTML5 • CSS3 • jQuery • Wordpress',
+	     speed: 50,
+	     autoStart: false,
 	});
 });
