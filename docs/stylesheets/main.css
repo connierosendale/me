@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400");
+/* line 5, ../sass/partials/_branding.sass */
+h1, h2, h3, h4 {
+  color: #333333;
+}
+
+/* line 8, ../sass/partials/_branding.sass */
+#portfolio {
+  background-color: #eee;
+}
+
 /* line 7, ../sass/partials/_typography.sass */
 h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
@@ -20,14 +30,15 @@ hgroup h2 {
   font-size: 1.2em;
 }
 
-/* line 5, ../sass/partials/_branding.sass */
-h1, h2, h3, h4 {
-  color: #333333;
+/* line 21, ../sass/partials/_typography.sass */
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
 }
-
-/* line 8, ../sass/partials/_branding.sass */
-#portfolio {
-  background-color: #eee;
+/* line 25, ../sass/partials/_typography.sass */
+a:hover {
+  color: #d03f11;
 }
 
 /* line 12, ../sass/partials/_structure.sass */
@@ -54,39 +65,56 @@ nav ul {
   display: flex;
   justify-content: space-around;
   vertical-align: middle;
+  align-items: center;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0;
+  width: 90%;
+  margin: 0 auto;
 }
-/* line 29, ../sass/partials/_structure.sass */
+/* line 34, ../sass/partials/_structure.sass */
 nav ul li {
   padding: 0 10px;
 }
-/* line 31, ../sass/partials/_structure.sass */
+/* line 36, ../sass/partials/_structure.sass */
 nav ul li:first-child {
   flex: 1;
 }
 
-/* line 34, ../sass/partials/_structure.sass */
+/* line 39, ../sass/partials/_structure.sass */
 hgroup {
   width: 70%;
 }
 
-/* line 42, ../sass/partials/_structure.sass */
+/* line 47, ../sass/partials/_structure.sass */
 #codepen {
   display: flex;
 }
-/* line 44, ../sass/partials/_structure.sass */
+/* line 49, ../sass/partials/_structure.sass */
 #codepen div {
   flex: 1;
 }
 
-/* line 47, ../sass/partials/_structure.sass */
+/* line 52, ../sass/partials/_structure.sass */
 #about {
   width: 70%;
   margin: 50px auto;
 }
 
-/* line 52, ../sass/partials/_structure.sass */
+/* line 57, ../sass/partials/_structure.sass */
 #portfolio .inner {
   width: 70%;
   margin: 0 auto;
   padding: 20px 0;
+}
+
+/* line 62, ../sass/partials/_structure.sass */
+footer {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 66, ../sass/partials/_structure.sass */
+footer p {
+  font-size: 14px;
+  color: #6b6b6b;
 }
