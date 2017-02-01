@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400");
 /* line 5, ../sass/partials/_branding.sass */
 h1, h2, h3, h4 {
@@ -117,4 +118,65 @@ footer {
 footer p {
   font-size: 14px;
   color: #6b6b6b;
+}
+
+/* line 1, ../sass/partials/_imgslider.sass */
+.ba-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 5, ../sass/partials/_imgslider.sass */
+.ba-slider img {
+  width: 100%;
+}
+
+/* line 9, ../sass/partials/_imgslider.sass */
+.ba-slider .resize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+/* line 17, ../sass/partials/_imgslider.sass */
+.handle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  margin-left: -2px;
+  background: rgba(0, 0, 0, 0.62);
+  cursor: ew-resize;
+}
+
+/* line 27, ../sass/partials/_imgslider.sass */
+.handle:after {
+  position: absolute;
+  top: 50%;
+  width: 64px;
+  height: 64px;
+  margin: -32px 0 0 -32px;
+  content: "↔";
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  line-height: 60px;
+  background: #d03f11;
+  border: #b8380f;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+/* line 44, ../sass/partials/_imgslider.sass */
+.handle.draggable:after {
+  width: 48px;
+  height: 48px;
+  margin: -24px 0 0 -24px;
+  line-height: 45px;
+  font-size: 30px;
 }
