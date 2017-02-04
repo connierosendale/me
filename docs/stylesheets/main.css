@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* line 11, ../sass/partials/_typography.sass */
-p, li, span {
+p, li, span, figcaption {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -42,6 +42,13 @@ a:hover {
   color: #d03f11;
 }
 
+/* line 28, ../sass/partials/_typography.sass */
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
 /* line 12, ../sass/partials/_structure.sass */
 body {
   margin: 0;
@@ -53,7 +60,7 @@ header {
   width: 100%;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 350px;
 }
 
 /* line 22, ../sass/partials/_structure.sass */
@@ -87,16 +94,16 @@ hgroup {
 }
 
 /* line 47, ../sass/partials/_structure.sass */
-#codepen {
+.grid {
   display: flex;
 }
 /* line 49, ../sass/partials/_structure.sass */
-#codepen div {
+.grid div, .grid figure {
   flex: 1;
 }
 
 /* line 52, ../sass/partials/_structure.sass */
-#about {
+.contain {
   width: 70%;
   margin: 50px auto;
 }
@@ -129,6 +136,7 @@ footer p {
 /* line 5, ../sass/partials/_imgslider.sass */
 .ba-slider img {
   width: 100%;
+  display: block;
 }
 
 /* line 9, ../sass/partials/_imgslider.sass */
