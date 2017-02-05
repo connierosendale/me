@@ -1,3 +1,5 @@
+// All branding colors
+
 $background: #FFF9EC
 $heading-color: #333333
 $highlight: #d03f11
@@ -7,3 +9,29 @@ h1, h2, h3, h4
 
 #portfolio
 	background-color: #eee
+
+@mixin social-button
+	background:
+		position: 8px
+		repeat: no-repeat
+		size: 30px
+	text-indent: 35px
+	color: #fff
+
+.linkedin
+	@include social-button
+	background:
+		image: url('../img/linkedinicon.png')
+		color: #2f74a7
+
+.codepen
+	@include social-button
+	background:
+		image: url('../img/codepenicon.png')
+		color: #000
+
+.behance
+	@include social-button
+	background:
+		image: url('../img/behance.png')
+		color: #0171DF

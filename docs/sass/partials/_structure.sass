@@ -1,3 +1,5 @@
+// Structure styling
+
 @mixin table-parent 
 	display: table
 	width: 100%
@@ -39,6 +41,17 @@ nav
 hgroup
 	width: 70%
 
+@mixin button
+	border: none
+	font-size: 1em
+	padding: 8px 10px
+	border-radius: 3px
+	margin-right: 7px
+	line-height: 20px
+	cursor: pointer
+
+button
+	@include button	
 
 @mixin contain	
 	width: 70%
@@ -58,6 +71,9 @@ hgroup
 		width: 70% 
 		margin: 0 auto
 		padding: 20px 0
+
+figure
+	margin: 40px 0
 
 footer
 	width: 90%

@@ -8,8 +8,14 @@ h1, h2, h3, h4, h5
 	font-family: $heading-font
 	font-weight: 300
 
-p, li, span, figcaption
+p, li, span, figcaption, button
 	font-family: $body-font	
+
+p, span, figcaption
+	a
+		color: $highlight
+		&:hover
+			color: darken($highlight, 20%)
 
 hgroup
 	h1

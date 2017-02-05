@@ -1,13 +1,46 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400");
-/* line 5, ../sass/partials/_branding.sass */
+/* line 7, ../sass/partials/_branding.sass */
 h1, h2, h3, h4 {
   color: #333333;
 }
 
-/* line 8, ../sass/partials/_branding.sass */
+/* line 10, ../sass/partials/_branding.sass */
 #portfolio {
   background-color: #eee;
+}
+
+/* line 21, ../sass/partials/_branding.sass */
+.linkedin {
+  background-position: 8px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  text-indent: 35px;
+  color: #fff;
+  background-image: url("../img/linkedinicon.png");
+  background-color: #2f74a7;
+}
+
+/* line 27, ../sass/partials/_branding.sass */
+.codepen {
+  background-position: 8px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  text-indent: 35px;
+  color: #fff;
+  background-image: url("../img/codepenicon.png");
+  background-color: #000;
+}
+
+/* line 33, ../sass/partials/_branding.sass */
+.behance {
+  background-position: 8px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  text-indent: 35px;
+  color: #fff;
+  background-image: url("../img/behance.png");
+  background-color: #0171DF;
 }
 
 /* line 7, ../sass/partials/_typography.sass */
@@ -17,44 +50,53 @@ h1, h2, h3, h4, h5 {
 }
 
 /* line 11, ../sass/partials/_typography.sass */
-p, li, span, figcaption {
+p, li, span, figcaption, button {
   font-family: "Open Sans", sans-serif;
 }
 
 /* line 15, ../sass/partials/_typography.sass */
+p a, span a, figcaption a {
+  color: #d03f11;
+}
+/* line 17, ../sass/partials/_typography.sass */
+p a:hover, span a:hover, figcaption a:hover {
+  color: #722209;
+}
+
+/* line 21, ../sass/partials/_typography.sass */
 hgroup h1 {
   font-size: 3em;
   font-weight: 400;
 }
-/* line 18, ../sass/partials/_typography.sass */
+/* line 24, ../sass/partials/_typography.sass */
 hgroup h2 {
   font-size: 1.2em;
 }
 
-/* line 21, ../sass/partials/_typography.sass */
+/* line 27, ../sass/partials/_typography.sass */
 a {
   text-decoration: none;
   color: inherit;
   font-weight: 400;
 }
-/* line 25, ../sass/partials/_typography.sass */
+/* line 31, ../sass/partials/_typography.sass */
 a:hover {
   color: #d03f11;
 }
 
-/* line 28, ../sass/partials/_typography.sass */
+/* line 34, ../sass/partials/_typography.sass */
 figcaption {
   text-align: center;
   font-style: italic;
   font-size: 0.8em;
 }
 
-/* line 12, ../sass/partials/_structure.sass */
+/* line 14, ../sass/partials/_structure.sass */
 body {
   margin: 0;
 }
 
-/* line 15, ../sass/partials/_structure.sass */
+/* line 17, ../sass/partials/_structure.sass */
 header {
   display: flex;
   width: 100%;
@@ -63,11 +105,11 @@ header {
   height: 350px;
 }
 
-/* line 22, ../sass/partials/_structure.sass */
+/* line 24, ../sass/partials/_structure.sass */
 nav {
   height: 50px;
 }
-/* line 24, ../sass/partials/_structure.sass */
+/* line 26, ../sass/partials/_structure.sass */
 nav ul {
   list-style: none;
   display: flex;
@@ -79,67 +121,83 @@ nav ul {
   width: 90%;
   margin: 0 auto;
 }
-/* line 34, ../sass/partials/_structure.sass */
+/* line 36, ../sass/partials/_structure.sass */
 nav ul li {
   padding: 0 10px;
 }
-/* line 36, ../sass/partials/_structure.sass */
+/* line 38, ../sass/partials/_structure.sass */
 nav ul li:first-child {
   flex: 1;
 }
 
-/* line 39, ../sass/partials/_structure.sass */
+/* line 41, ../sass/partials/_structure.sass */
 hgroup {
   width: 70%;
 }
 
-/* line 47, ../sass/partials/_structure.sass */
+/* line 53, ../sass/partials/_structure.sass */
+button {
+  border: none;
+  font-size: 1em;
+  padding: 8px 10px;
+  border-radius: 3px;
+  margin-right: 7px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+/* line 60, ../sass/partials/_structure.sass */
 .grid {
   display: flex;
 }
-/* line 49, ../sass/partials/_structure.sass */
+/* line 62, ../sass/partials/_structure.sass */
 .grid div, .grid figure {
   flex: 1;
 }
 
-/* line 52, ../sass/partials/_structure.sass */
+/* line 65, ../sass/partials/_structure.sass */
 .contain {
   width: 70%;
   margin: 50px auto;
 }
 
-/* line 57, ../sass/partials/_structure.sass */
+/* line 70, ../sass/partials/_structure.sass */
 #portfolio .inner {
   width: 70%;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-/* line 62, ../sass/partials/_structure.sass */
+/* line 75, ../sass/partials/_structure.sass */
+figure {
+  margin: 40px 0;
+}
+
+/* line 78, ../sass/partials/_structure.sass */
 footer {
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 66, ../sass/partials/_structure.sass */
+/* line 82, ../sass/partials/_structure.sass */
 footer p {
   font-size: 14px;
   color: #6b6b6b;
 }
 
-/* line 1, ../sass/partials/_imgslider.sass */
+/* line 3, ../sass/partials/_imgslider.sass */
 .ba-slider {
   position: relative;
   overflow: hidden;
 }
 
-/* line 5, ../sass/partials/_imgslider.sass */
+/* line 7, ../sass/partials/_imgslider.sass */
 .ba-slider img {
   width: 100%;
   display: block;
 }
 
-/* line 9, ../sass/partials/_imgslider.sass */
+/* line 11, ../sass/partials/_imgslider.sass */
 .ba-slider .resize {
   position: absolute;
   top: 0;
@@ -149,7 +207,7 @@ footer p {
   overflow: hidden;
 }
 
-/* line 17, ../sass/partials/_imgslider.sass */
+/* line 19, ../sass/partials/_imgslider.sass */
 .handle {
   position: absolute;
   left: 50%;
@@ -161,7 +219,7 @@ footer p {
   cursor: ew-resize;
 }
 
-/* line 27, ../sass/partials/_imgslider.sass */
+/* line 29, ../sass/partials/_imgslider.sass */
 .handle:after {
   position: absolute;
   top: 50%;
@@ -180,7 +238,7 @@ footer p {
   transition: all 0.3s ease;
 }
 
-/* line 44, ../sass/partials/_imgslider.sass */
+/* line 46, ../sass/partials/_imgslider.sass */
 .handle.draggable:after {
   width: 48px;
   height: 48px;

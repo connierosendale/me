@@ -1,13 +1,19 @@
+// Typed 
 $(document).ready(function() {
 	$('#typed').typeIt({
 	     strings: 'HTML5 • CSS3 • jQuery • Wordpress',
 	     speed: 120,
 	     autoStart: false,
 	});
+  $('#project-typed').typeIt({
+       strings: 'Wordpress • HTML5 • CSS3 • GIT',
+       speed: 120,
+       autoStart: false,
+  });
 });
 
 
-// slider
+// Image comparasion slider
 // Call & init
 $(document).ready(function(){
   $('.ba-slider').each(function(){
