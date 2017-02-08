@@ -91,6 +91,23 @@ figcaption {
   font-size: 0.8em;
 }
 
+/* line 39, ../sass/partials/_typography.sass */
+blockquote {
+  font-family: "Raleway", sans-serif;
+  border-left: 4px solid #d03f11;
+  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+/* line 47, ../sass/partials/_typography.sass */
+blockquote cite {
+  display: block;
+  color: #d03f11;
+  padding-top: 5px;
+}
+
 /* line 14, ../sass/partials/_structure.sass */
 body {
   margin: 0;
