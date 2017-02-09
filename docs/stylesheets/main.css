@@ -94,6 +94,7 @@ figcaption {
 /* line 39, ../sass/partials/_typography.sass */
 blockquote {
   font-family: "Raleway", sans-serif;
+  font-style: italic;
   border-left: 4px solid #d03f11;
   -webkit-margin-end: 0px;
   -webkit-margin-start: 0;
@@ -101,19 +102,19 @@ blockquote {
   font-weight: bold;
   line-height: 1.3em;
 }
-/* line 47, ../sass/partials/_typography.sass */
+/* line 48, ../sass/partials/_typography.sass */
 blockquote cite {
   display: block;
   color: #d03f11;
   padding-top: 5px;
 }
 
-/* line 14, ../sass/partials/_structure.sass */
+/* line 32, ../sass/partials/_structure.sass */
 body {
   margin: 0;
 }
 
-/* line 17, ../sass/partials/_structure.sass */
+/* line 35, ../sass/partials/_structure.sass */
 header {
   display: flex;
   width: 100%;
@@ -122,11 +123,11 @@ header {
   height: 350px;
 }
 
-/* line 24, ../sass/partials/_structure.sass */
+/* line 42, ../sass/partials/_structure.sass */
 nav {
   height: 50px;
 }
-/* line 26, ../sass/partials/_structure.sass */
+/* line 44, ../sass/partials/_structure.sass */
 nav ul {
   list-style: none;
   display: flex;
@@ -138,65 +139,98 @@ nav ul {
   width: 90%;
   margin: 0 auto;
 }
-/* line 36, ../sass/partials/_structure.sass */
+/* line 54, ../sass/partials/_structure.sass */
 nav ul li {
   padding: 0 10px;
 }
-/* line 38, ../sass/partials/_structure.sass */
+/* line 56, ../sass/partials/_structure.sass */
 nav ul li:first-child {
   flex: 1;
 }
 
-/* line 41, ../sass/partials/_structure.sass */
+/* line 59, ../sass/partials/_structure.sass */
 hgroup {
   width: 70%;
 }
 
-/* line 53, ../sass/partials/_structure.sass */
+/* line 73, ../sass/partials/_structure.sass */
 button {
   border: none;
   font-size: 1em;
   padding: 8px 10px;
   border-radius: 3px;
   margin-right: 7px;
+  margin-bottom: 10px;
   line-height: 20px;
   cursor: pointer;
 }
 
-/* line 60, ../sass/partials/_structure.sass */
+/* line 86, ../sass/partials/_structure.sass */
 .grid {
   display: flex;
 }
-/* line 62, ../sass/partials/_structure.sass */
+/* line 88, ../sass/partials/_structure.sass */
 .grid div, .grid figure {
   flex: 1;
 }
 
-/* line 65, ../sass/partials/_structure.sass */
+@media only screen and (max-width: 420px) {
+  /* line 91, ../sass/partials/_structure.sass */
+  .mobile-block {
+    display: block;
+  }
+}
+
+/* line 95, ../sass/partials/_structure.sass */
 .contain {
   width: 70%;
   margin: 50px auto;
 }
+@media only screen and (max-width: 420px) {
+  /* line 95, ../sass/partials/_structure.sass */
+  .contain {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 95, ../sass/partials/_structure.sass */
+  .contain {
+    width: 70%;
+    margin: 50px auto;
+  }
+}
 
-/* line 70, ../sass/partials/_structure.sass */
+/* line 100, ../sass/partials/_structure.sass */
 #portfolio .inner {
   width: 70%;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-/* line 75, ../sass/partials/_structure.sass */
+/* line 105, ../sass/partials/_structure.sass */
 figure {
   margin: 40px 0;
+  padding: 5px;
+}
+@media only screen and (max-width: 420px) {
+  /* line 105, ../sass/partials/_structure.sass */
+  figure {
+    text-align: center;
+  }
+}
+/* line 110, ../sass/partials/_structure.sass */
+figure img {
+  max-width: 100%;
 }
 
-/* line 78, ../sass/partials/_structure.sass */
+/* line 113, ../sass/partials/_structure.sass */
 footer {
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 82, ../sass/partials/_structure.sass */
+/* line 117, ../sass/partials/_structure.sass */
 footer p {
   font-size: 14px;
   color: #6b6b6b;
