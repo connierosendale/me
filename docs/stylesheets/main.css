@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400");
 /* line 7, ../sass/partials/_branding.sass */
 h1, h2, h3, h4 {
@@ -277,19 +276,23 @@ footer p {
   width: 64px;
   height: 64px;
   margin: -32px 0 0 -32px;
-  content: "↔";
+  content: "";
   color: white;
   font-weight: bold;
   font-size: 36px;
   text-align: center;
   line-height: 60px;
   background: #d03f11;
+  background-image: url("../img/drag-arrow.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
   border: #b8380f;
   border-radius: 50%;
   transition: all 0.3s ease;
 }
 
-/* line 46, ../sass/partials/_imgslider.sass */
+/* line 51, ../sass/partials/_imgslider.sass */
 .handle.draggable:after {
   width: 48px;
   height: 48px;
