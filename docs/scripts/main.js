@@ -1,4 +1,4 @@
-// Typed 
+// Typed elements
 $(document).ready(function() {
 	$('#typed').typeIt({
 	     strings: 'HTML5 • CSS3 • jQuery • Wordpress',
@@ -27,7 +27,6 @@ $(document).ready(function(){
 });
 
 // Update sliders on resize.
-// We all do it: i.imgur.com/YkbaV.gif
 $(window).resize(function(){
   $('.ba-slider').each(function(){
     var cur = $(this);
@@ -92,3 +91,4 @@ function drags(dragElement, resizeElement, container) {
     resizeElement.removeClass('resizable');
   });
 }
+
