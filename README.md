@@ -1,2 +1,2 @@
 # me
-A portfolio site that is still in progress.
+A very basic portfolio site coded from scratch.
