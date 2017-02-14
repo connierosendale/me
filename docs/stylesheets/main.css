@@ -98,16 +98,15 @@ figcaption {
 
 /* line 43, ../sass/partials/_typography.sass */
 blockquote {
-  font-family: "Raleway", sans-serif;
-  font-style: italic;
+  font-family: "Open Sans", sans-serif;
   border-left: 4px solid #d03f11;
   -webkit-margin-end: 0px;
   -webkit-margin-start: 0;
   padding: 10px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.3em;
 }
-/* line 52, ../sass/partials/_typography.sass */
+/* line 51, ../sass/partials/_typography.sass */
 blockquote cite {
   display: block;
   color: #d03f11;
