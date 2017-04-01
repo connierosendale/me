@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400");
-/* line 7, ../sass/partials/_branding.sass */
+/* line 12, ../sass/partials/_branding.sass */
 h1, h2, h3, h4 {
   color: #333333;
 }
 
-/* line 10, ../sass/partials/_branding.sass */
+/* line 15, ../sass/partials/_branding.sass */
 #portfolio {
   background-color: #eee;
 }
 
-/* line 21, ../sass/partials/_branding.sass */
+/* line 26, ../sass/partials/_branding.sass */
 .linkedin {
   background-position: 8px;
   background-repeat: no-repeat;
@@ -19,8 +19,12 @@ h1, h2, h3, h4 {
   background-image: url("../img/linkedinicon.png");
   background-color: #2f74a7;
 }
+/* line 31, ../sass/partials/_branding.sass */
+.linkedin:hover {
+  background-color: #408fc9;
+}
 
-/* line 27, ../sass/partials/_branding.sass */
+/* line 34, ../sass/partials/_branding.sass */
 .codepen {
   background-position: 8px;
   background-repeat: no-repeat;
@@ -28,10 +32,14 @@ h1, h2, h3, h4 {
   text-indent: 35px;
   color: #fff;
   background-image: url("../img/codepenicon.png");
-  background-color: #000;
+  background-color: #000000;
+}
+/* line 39, ../sass/partials/_branding.sass */
+.codepen:hover {
+  background-color: #1a1a1a;
 }
 
-/* line 33, ../sass/partials/_branding.sass */
+/* line 42, ../sass/partials/_branding.sass */
 .behance {
   background-position: 8px;
   background-repeat: no-repeat;
@@ -40,6 +48,10 @@ h1, h2, h3, h4 {
   color: #fff;
   background-image: url("../img/behance.png");
   background-color: #0171DF;
+}
+/* line 47, ../sass/partials/_branding.sass */
+.behance:hover {
+  background-color: #158bfe;
 }
 
 /* line 7, ../sass/partials/_typography.sass */

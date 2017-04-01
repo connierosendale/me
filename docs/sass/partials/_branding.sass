@@ -1,8 +1,13 @@
-// All branding colors
+// Gerneric branding colors
 
 $background: #FFF9EC
 $heading-color: #333333
 $highlight: #d03f11
+
+// Social colors
+$linkedin: #2f74a7
+$codepen: #000000
+$behance: #0171DF
 
 h1, h2, h3, h4
 	color: $heading-color
@@ -22,16 +27,22 @@ h1, h2, h3, h4
 	@include social-button
 	background:
 		image: url('../img/linkedinicon.png')
-		color: #2f74a7
+		color: $linkedin
+	&:hover
+		background-color: lighten($linkedin, 10%)
 
 .codepen
 	@include social-button
 	background:
 		image: url('../img/codepenicon.png')
-		color: #000
+		color: $codepen
+	&:hover
+		background-color: lighten($codepen, 10%)
 
 .behance
 	@include social-button
 	background:
 		image: url('../img/behance.png')
-		color: #0171DF
+		color: $behance
+	&:hover
+		background-color: lighten($behance, 10%)
