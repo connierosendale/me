@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400");
 /* line 12, ../sass/partials/_branding.sass */
+=======
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:300,400,500i");
+/* line 7, ../sass/partials/_branding.sass */
+>>>>>>> 09f43f78d702b2d6f4d86eb734fd8d75c63baf0d
 h1, h2, h3, h4 {
   color: #333333;
 }
@@ -55,65 +60,70 @@ h1, h2, h3, h4 {
 }
 
 /* line 7, ../sass/partials/_typography.sass */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 11, ../sass/partials/_typography.sass */
 h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 
-/* line 11, ../sass/partials/_typography.sass */
+/* line 15, ../sass/partials/_typography.sass */
 p, li, span, figcaption, button {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 15, ../sass/partials/_typography.sass */
+/* line 19, ../sass/partials/_typography.sass */
 p a, span a, figcaption a {
   color: #d03f11;
 }
-/* line 17, ../sass/partials/_typography.sass */
+/* line 21, ../sass/partials/_typography.sass */
 p a:hover, span a:hover, figcaption a:hover {
   color: #722209;
 }
 
-/* line 21, ../sass/partials/_typography.sass */
+/* line 25, ../sass/partials/_typography.sass */
 hgroup h1 {
   font-size: 3em;
   font-weight: 400;
 }
-/* line 24, ../sass/partials/_typography.sass */
+/* line 28, ../sass/partials/_typography.sass */
 hgroup h2 {
   font-size: 1.2em;
 }
 
-/* line 27, ../sass/partials/_typography.sass */
+/* line 31, ../sass/partials/_typography.sass */
 a {
   text-decoration: none;
   color: inherit;
   font-weight: 400;
 }
-/* line 31, ../sass/partials/_typography.sass */
+/* line 35, ../sass/partials/_typography.sass */
 a:hover {
   color: #d03f11;
 }
 
-/* line 34, ../sass/partials/_typography.sass */
+/* line 38, ../sass/partials/_typography.sass */
 figcaption {
   text-align: center;
   font-style: italic;
   font-size: 0.8em;
 }
 
-/* line 39, ../sass/partials/_typography.sass */
+/* line 43, ../sass/partials/_typography.sass */
 blockquote {
-  font-family: "Raleway", sans-serif;
-  font-style: italic;
+  font-family: "Open Sans", sans-serif;
   border-left: 4px solid #d03f11;
   -webkit-margin-end: 0px;
   -webkit-margin-start: 0;
   padding: 10px;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 1.3em;
 }
-/* line 48, ../sass/partials/_typography.sass */
+/* line 51, ../sass/partials/_typography.sass */
 blockquote cite {
   display: block;
   color: #d03f11;
