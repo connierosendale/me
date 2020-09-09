@@ -10,6 +10,11 @@ $(document).ready(function() {
        speed: 120,
        autoStart: false,
   });
+	$('#promo-banners-typed').typeIt({
+	       strings: 'HTML5 • SASS • jQuery',
+	       speed: 120,
+	       autoStart: false,
+	  });
 });
 
 
