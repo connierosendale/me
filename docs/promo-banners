@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>Promo Banner Redesign | Connie Rosendale Portfolio</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="stylesheets/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.3.0/typeit.min.js"></script>
+	<script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<nav>
+			<ul>
+				<li><a href="./" title="Home"><img src="img/car-icon.png" height="50"></a></li>
+				<li><a href="index.html#about">About</a></li>
+				<li><a href="index.html#contact">Contact</a></li>
+			</ul>
+		</nav>
+	<header>
+		<hgroup>
+			<h1>Promotional Banner Redesign</h1>
+			<h2>Project Required / <span id="promo-banners-typed"></span></h2>
+		</hgroup>
+	</header>
+
+	
+	<div class="contain">
+		<div class="ba-slider">
+		   <img src="img/new-sale.jpg">
+		   <div class="resize">
+		       <img src="img/old-sale.jpg">
+		   </div>
+		   <span class="handle"></span>
+		</div>
+
+		<p>Redesign of promotional banners which are merchandised across the site. Slimmer, cleaner design gives a modern feel, reduces load time, and brings the all important products further up the page.</p>
+
+		<p>This process included:</p>
+
+		<ul>
+			<li>Research into competitor executions</li>
+			<li>Mock-ups and templates created in Sketch</li>
+			<li>Coded using HTML &amp; Sass</li>
+			<li>Code templates clearly presented so that the merchandising team can copy out code as needed</li>
+			<li>Monitoring impact of redesign </li>
+
+		</ul>
+
+		<!--<p>The redesign won Incisive Media's Marketing Initiative award in 2016.</p>
+		<blockquote>
+			“We have made a massive step in the right direction in the look and feel, responsiveness and professionalism of our subscriptions marketing, with the launch of the subscriptions microsites.”
+			<cite>Group Marketing & Subscriptions Director</cite>
+		</blockquote>-->
+
+		<div class="grid mobile-block">
+			<figure>
+  				<img src="img/old-discount-code.jpg" alt="Promo banners old">
+ 				<figcaption>Orginal discount code banners.</figcaption>
+			</figure>
+			<figure>
+  				<img src="img/new-discount-code.png" alt="Promo banners new">
+ 				<figcaption>Latest iteration in new branding.</figcaption>
+			</figure>
+		</div>
+
+		<div class="grid mobile-block">
+			<figure>
+  				<img src="img/old-sale-segment.jpg" alt="Promo banners old">
+ 				<figcaption>The orginal promotional banners.</figcaption>
+			</figure>
+			<figure>
+  				<img src="img/new-sale-segment.jpg" alt="Promo banners new">
+ 				<figcaption>The first iteration of redesign.</figcaption>
+			</figure>
+		</div>
+
+
+
+	</div>
+	<footer>
+		<p>This is a basic portfolio site, using static files from scratch, hosted on GitHub Pages. It will be updated soon.</p>
+	</footer>
+</body>
+</html>
