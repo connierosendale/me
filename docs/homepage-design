@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Homepage Redesign | Connie Rosendale Portfolio</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="stylesheets/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.3.0/typeit.min.js"></script>
+	<script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<nav>
+			<ul>
+				<li><a href="./" title="Home"><img src="img/car-icon.png" height="50"></a></li>
+				<li><a href="index.html#about">About</a></li>
+				<li><a href="index.html#contact">Contact</a></li>
+			</ul>
+		</nav>
+	<header>
+		<hgroup>
+			<h1>Homepage Redesign</h1>
+			<h2>Project Required / <span id="promo-banners-typed"></span></h2>
+		</hgroup>
+	</header>
+
+	
+	<div class="contain">
+		<div class="ba-slider">
+		   <img src="img/new-homepage.png">
+		   <div class="resize">
+		       <img src="img/old-homepage.png">
+		   </div>
+		   <span class="handle"></span>
+		</div>
+
+		<p>Over the last few years I have been responsible for many redesigns on the homepage, a process that has required a lot of patience - but that has resulted in a significant increase in click through rate.</p>
+
+		<p>This process included:</p>
+
+		<ul>
+			<li>Analysis into current design, using Adobe Analytics &amp; Decibel heatmaps</li>
+			<li>Research into competitor executions</li>
+			<li>Mock-ups created in Sketch</li>
+			<li>Presented to and signed off by all stakeholders</li>
+			<li>Redesigns communicated to relevant teams</li>
+			<li>Coded in HTML &amp; Sass </li>
+			<li>Testing with BrowserStack </li>
+		</ul>
+
+		<!--<p>The redesign won Incisive Media's Marketing Initiative award in 2016.</p>
+		<blockquote>
+			“We have made a massive step in the right direction in the look and feel, responsiveness and professionalism of our subscriptions marketing, with the launch of the subscriptions microsites.”
+			<cite>Group Marketing & Subscriptions Director</cite>
+		</blockquote>-->
+
+
+		<p>I have also been responsible for 5* homepage takeovers, some examples of which can be seen below.</p>
+
+		<p>This process included:</p>
+
+		<ul>
+			<li>Communicating with brands to ensure we recieved the assets we needed, when we needed.</li>
+			<li>Built from scratch using HTML &amp; Sass, often in under a day.</li>
+			<li>Lots of coffee!</li>
+		</ul>
+		<div class="grid mobile-block">
+			<figure>
+  				<img src="img/premium-homepage.png" alt="Premium homepage">
+ 				<figcaption>Targeted premium homepage.</figcaption>
+			</figure>
+			<figure>
+  				<img src="img/takeover-example-1.png" alt="Homepage takeover">
+ 				<figcaption>The first iteration of redesign.</figcaption>
+			</figure>
+		</div>
+	</div>
+	<footer>
+		<p>This is a basic portfolio site, using static files from scratch, hosted on GitHub Pages. It will be updated soon.</p>
+	</footer>
+</body>
+</html>
