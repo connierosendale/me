@@ -15,6 +15,11 @@ $(document).ready(function() {
 	       speed: 120,
 	       autoStart: false,
 	  });
+  $('#homepage-typed').typeIt({
+         strings: 'HTML5 • SASS ',
+         speed: 120,
+         autoStart: false,
+    });
 });
 
 
