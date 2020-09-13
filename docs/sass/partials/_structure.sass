@@ -44,6 +44,9 @@ nav
 		align-items: center
 		width: 90%
 		margin: 0 auto
+		padding: 0px
+		@include mobile 
+			width: 95%
 		li 
 			padding: 0 10px
 			&:first-child
@@ -51,6 +54,8 @@ nav
 
 hgroup
 	width: 70%
+	@include mobile 
+		width: 90%
 
 @mixin button
 	border: none
@@ -100,7 +105,7 @@ figure
 	padding: 5px
 	@include mobile
 		text-align: center
-	img 
+	img, video
 		max-width: 100%	
 		@include mobile
 			width: 90%
