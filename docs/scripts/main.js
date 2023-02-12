@@ -1,7 +1,7 @@
 // Typed elements
 $(document).ready(function() {
 	$('#typed').typeIt({
-	     strings: 'HTML5 • CSS3 • jQuery • Wordpress',
+	     strings: 'Design leadership • UI • HTML5 • CSS3',
 	     speed: 120,
 	     autoStart: false,
 	});
