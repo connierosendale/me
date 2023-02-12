@@ -16,7 +16,7 @@ $(document).ready(function() {
 	       autoStart: false,
 	  });
   $('#homepage-typed').typeIt({
-         strings: 'HTML5 • SASS ',
+         strings: 'Leadership • Sketch • HTML5 • SASS ',
          speed: 120,
          autoStart: false,
     });
