@@ -20,6 +20,16 @@ $(document).ready(function() {
          speed: 120,
          autoStart: false,
     });
+  $('#promo-management').typeIt({
+         strings: 'Leadership • Sketch • HTML5 • SASS ',
+         speed: 120,
+         autoStart: false,
+    });
+   $('#site-redesign-typed').typeIt({
+         strings: 'Leadership • Sketch • HTML5 • SASS ',
+         speed: 120,
+         autoStart: false,
+    });
 });
 
 
